@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aleksey Zayachnikov",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
